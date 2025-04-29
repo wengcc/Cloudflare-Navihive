@@ -13,6 +13,14 @@
     "observability": {
         "enabled": true
     },
+    // D1数据库绑定
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "navigation-db",
+            "database_id": "00000000-00000008-00004eef-fc1cd96230dc892e92dcc71e478ced70"
+        }
+    ],
     "vars": {
         "AUTH_ENABLED": "true",
         "AUTH_USERNAME": "admin",
